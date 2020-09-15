@@ -1,0 +1,187 @@
+/*
+ * primary blue (dark):		rgba(0, 147, 197, 1);
+ * primary blue (darker):	rgba(5, 52, 101, 1);
+ *
+ *
+ *
+ * light blue (flyout nav):	rgba(131, 182, 201, 1);
+ *
+ */
+
+
+
+body {
+    /* font-size: 0.9rem; */
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+    color: rgba(0, 147, 197, 1);
+}
+
+header {
+    padding: 1rem 0;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header .meta-nav {
+    float: right;
+}
+
+header a {
+    text-transform: uppercase;
+}
+
+header .navbar-brand {
+    font-size: 1rem;
+}
+
+header .meta-nav .nav-item a {
+    padding: 1rem;
+}
+
+
+header .navbar {
+    background: rgb(40, 40, 40);
+    background: -webkit-radial-gradient(bottom left, rgba(120, 120, 120, 1) 0%, rgba(40, 40, 40, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(120, 120, 120, 1) 0%, rgba(40, 40, 40, 1) 60%);
+}
+
+header .navbar a,
+header .navbar a:active,
+header .navbar a:hover,
+header .navbar a:focus,
+header .navbar a:visited {
+    color: #fff;
+}
+
+header .navbar .nav-item>a {
+    padding: 1rem;
+}
+
+footer {
+    padding: 4rem 2rem;
+
+    color: #fff;
+
+    background: rgb(40, 40, 40);
+    background: -webkit-radial-gradient(bottom left, rgba(120, 120, 120, 1) 0%, rgba(40, 40, 40, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(120, 120, 120, 1) 0%, rgba(40, 40, 40, 1) 60%);
+}
+
+.base footer a,
+.base footer a:active,
+.base footer a:hover,
+.base footer a:focus,
+.base footer a:visited {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.base footer a:hover,
+.base footer a:focus {
+    text-decoration: overline;
+}
+
+
+footer h6 {
+    text-transform: uppercase;
+}
+
+footer .logos a:hover,
+footer .logos a:focus {
+    opacity: 0.6
+}
+
+footer .logos img {
+    width: 200px;
+    max-height: 150px;
+
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+/*
+ * BOOTSTRAP OVERRIDES
+ */
+
+.dropdown-menu {
+    color: #fff;
+    border-radius: 0;
+    border: 0;
+    background: rgba(120, 120, 120, 1);
+}
+
+.dropdown-item {
+    text-transform: uppercase;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background: transparent;
+    text-decoration: underline;
+}
+
+/*
+ * BRANDING ASEAN-QA
+ */
+
+.asean a,
+.asean a:active,
+.asean a:hover,
+.asean a:focus,
+.asean a:visited {
+    color: rgba(0, 147, 197, 1);
+}
+
+.asean header .navbar {
+    background: rgb(0, 147, 197);
+    background: -webkit-radial-gradient(bottom left, rgba(0, 147, 197, 1) 0%, rgba(5, 52, 101, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(0, 147, 197, 1) 0%, rgba(5, 52, 101, 1) 60%);
+}
+
+.asean footer {
+    background: rgb(0, 147, 197);
+    background: -webkit-radial-gradient(bottom left, rgba(0, 147, 197, 1) 0%, rgba(5, 52, 101, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(0, 147, 197, 1) 0%, rgba(5, 52, 101, 1) 60%);
+}
+
+.asean .dropdown-menu {
+    background: rgba(131, 182, 201, 1);
+}
+
+/*
+ * BRANDING SADC-QA
+ */
+
+.sadc a,
+.sadc a:active,
+.sadc a:hover,
+.sadc a:focus,
+.sadc a:visited {
+    color: rgba(52, 194, 104, 1);
+}
+
+.sadc header .navbar {
+    background: rgb(52, 194, 104);
+    background: -webkit-radial-gradient(bottom left, rgba(52, 194, 104, 1) 0%, rgba(25, 92, 50, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(52, 194, 104, 1) 0%, rgba(25, 92, 50, 1) 60%);
+}
+
+.sadc footer {
+    background: rgb(52, 194, 104);
+    background: -webkit-radial-gradient(bottom left, rgba(52, 194, 104, 1) 0%, rgba(25, 92, 50, 1) 60%);
+    background: radial-gradient(at bottom left, rgba(52, 194, 104, 1) 0%, rgba(25, 92, 50, 1) 60%);
+}
+
+.sadc .dropdown-menu {
+    background: rgba(131, 201, 167, 1);
+}
