@@ -129,6 +129,11 @@ footer {
  * BOOTSTRAP OVERRIDES
  */
 
+button:focus,
+button:active {
+    outline: 0;
+}
+
 ul {
     list-style-type: square;
 }
@@ -175,7 +180,14 @@ ul {
     text-decoration: underline;
 }
 
+.navbar-toggler {
+    border-radius: 0;
+}
 
+.navbar-dark .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
 
 /*
  * Dropdown menu onhover
